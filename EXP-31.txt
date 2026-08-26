@@ -1,0 +1,25 @@
+
+<!-- Main Title with ID Anchor -->
+<h1 id="top">HTML Tag Demonstration</h1>
+
+<!-- Section with Anchor -->
+<h2><a name="anchor-section" title="This is the anchor tag section">Anchor Tags</a></h2>
+<p>This section demonstrates anchor tags that link to different parts of the page.</p>
+<p><a href="#top" title="Go back to top">Back to top</a></p>
+
+<!-- Title Attribute Examples -->
+<h2>Title Attributes</h2>
+<p>Hover over these links to see the title text:</p>
+<ul>
+    <li><a href="https://wordpress.org" title="Visit WordPress Official Site">WordPress</a></li>
+    <li><a href="#anchor-section" title="Jump to anchor section">Anchor Section</a></li>
+</ul>
+
+<!-- External Link with Target -->
+<h2>Link with Target Attribute</h2>
+<p>This link opens in a new tab:</p>
+<p><a href="https://www.w3schools.com/html/" target="_blank" title="HTML Tutorials">Learn HTML at W3Schools</a></p>
+
+<!-- Email Link -->
+<h2>Email Link</h2>
+<p><a href="mailto:example@example.com" title="Send us an email">Contact Us</a></p>
